@@ -1,0 +1,25 @@
+.task-list {
+  width: 250px;
+  float: left;
+  margin: 0 5px;
+  background-color: #e3e3e3;
+  min-height: 240px;
+  border-radius: 10px;
+  padding-bottom: 15px;
+}
+
+.task-list input, .task-list textarea {
+  width: 240px;
+  margin: 1px 5px;
+}
+
+.task-list input {
+  height: 30px;
+}
+.task-list button {
+  width: 100px;
+  margin: 5px;
+}
+h1 {
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="Todo_list.js"></script>
+  <link rel="stylesheet" href="Todo_list.css">
+  <script>
+    
+  </script>
+</head>
+<body>
+  <h1 id= todo>Todo List</h1>
+  <div>
+    <button type="button" onclick="Add()">Add</button>
+    <button type="button" onclick="DeleteAll()">Delete All</button>
+  </div>
+  <div class="task-list" id="list" style="display:none;">
+    <form id="todo-form" >
+      <input id=title type="text" placeholder="Title"/>
+      <input id=date type="text" placeholder="Due Date (dd/mm/yyyy)"/>
+      <textarea id=description placeholder="Descrtipion"></textarea>
+      <button type="button" onclick="Ok()">Ok</button>
+    </form>
+  </div>
+  <div class="added-task" id=addtask>
+      <textarea id=addedtask style="display:none;" readonly="true"></textarea>
+  </div>
+  
+</body>
+</html>
